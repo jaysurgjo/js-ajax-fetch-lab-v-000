@@ -2,7 +2,7 @@ const token = '34aac727a539d537412a8182af7db0cf2d2566a7';
 
 
 function getToken() {
-	return token 
+	return token
 }
 
 // POST /repos/:owner/:repo/forks
@@ -11,7 +11,7 @@ function getToken() {
 
 function forkRepo() {
 
- fetch(`https://api.github.com/repos/learn-co-curriculum/js-ajax-fetch-lab/forks`), 
+ fetch(`https://api.github.com/repos/learn-co-curriculum/js-ajax-fetch-lab/forks`),
   	{
   		method: 'POST',
   		headers: {
